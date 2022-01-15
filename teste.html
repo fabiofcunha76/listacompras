@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+
+        <title>Estudo de HTML5</title>
+    </head>
+    <body>
+
+        <div>
+            <form name="frmEstudo" method="post" action="#">
+                <input type="date" name="txtData" id="txtData">
+                <p>
+                    <!-- <input type="search" name="txtPesquisa" id="txtPesquisa"/> -->
+                </p>
+                <input type="button" value="Enviar" name="btnEnviar" id="btnEnviar"/>
+            </form>
+
+        </div>
+
+        <div class="container">
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover table-sm">
+                    <thead class="thead-dark">             
+                        <tr>
+                            <th>Empresas</th>
+                            <th>Tempo de casa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Reprinco Indústria e Comércio</td>
+                            <td>3 meses</td>
+                        </tr>
+                        <tr>
+                            <td>Filtros Fram SA</td>
+                            <td>11 meses</td>
+                        </tr>
+                        <tr>
+                            <td>Hospital Assunção</td>
+                            <td>3 anos</td>
+                        </tr>
+                        <tr>
+                            <td>Laboratório Vanguard</td>
+                            <td>7 anos</td>
+                        </tr>
+                        <tr>
+                            <td>Fundação Faculdade de Medicina</td>
+                            <td>3 meses</td>
+                        </tr>
+                        <tr>
+                            <td>Unimed Paulitana</td>
+                            <td>6 meses</td>
+                        </tr>
+                        <tr>
+                            <td>Instituto de Responsabilidade Social sírio-Libanês</td>
+                            <td>11 anos e 2 meses</td>
+                        </tr>
+                        <tr>
+                            <td>SPDM - Associação Paulista para o Desenvolvimento da Medicina</td>
+                            <td>1 ano e 8 meses (atual)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <hr>
+
+            <form method="#" name="frmListaCompras" id="frmListaCompras">
+
+                <div class="list-group">
+
+                    <a href="#" class="list-group-item">
+                        <h5>Sabão Líquido</h5>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="txtQtde1">Qtde item</label>
+                                    <input type="text" class="form-control" name="txtQtde1" id="txtQtde1" value="1" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="txtValor1">Vl Un.(R$)</label>
+                                    <input type="text" class="form-control" id="txtValor1" name="txtValor1" value="33,90" >
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="txtValorItem1">Total (R$)</label>
+                                    <input type="text" name="txtValorItem1" id="txtValorItem1" class="form-control" readonly >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <button class="btn btn-secundary btn-sm">Cancelar</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                    <button class="btn btn-primary btn-sm">Ok</button>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item">
+                        <h5>Papel Higiênico</h5>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="txtQtde1">Qtde item</label>
+                                    <input type="text" class="form-control" name="txtQtde2" id="txtQtde2" value="1" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="txtValor1">Vl Un.(R$)</label>
+                                    <input type="text" class="form-control" id="txtValor2" name="txtValor2" value="33,90" >
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="txtValorItem1">Total (R$)</label>
+                                    <input type="text" name="txtValorItem2" id="txtValorItem2" class="form-control" readonly >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <button class="btn btn-secundary btn-sm">Cancelar</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                    <button class="btn btn-primary btn-sm">Ok</button>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="list-group-item">
+                        <h5>Arroz</h5>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="txtQtde3">Qtde item</label>
+                                    <input type="text" class="form-control" name="txtQtde3" id="txtQtde3" value="1" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="txtValor3">Vl Un.(R$)</label>
+                                    <input type="text" class="form-control" id="txtValor3" name="txtValor3" value="33,90" >
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="txtValorItem3">Total (R$)</label>
+                                    <input type="text" name="txtValorItem3" id="txtValorItem3" class="form-control" readonly >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <button class="btn btn-secundary btn-sm">Retirar do Carrinho</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                    <button class="btn btn-primary btn-sm">Por no Carrinho</button>
+                            </div>
+                        </div>
+                    </a>                    
+
+
+                </div>
+
+            </form>
+
+        </div>
+
+        <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>
